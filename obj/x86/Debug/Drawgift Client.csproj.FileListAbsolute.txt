@@ -1,0 +1,55 @@
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\bin\Debug\WindowsApplication.exe.config
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\bin\Debug\WindowsApplication.exe.manifest
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\bin\Debug\WindowsApplication.application
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\bin\Debug\WindowsApplication.exe
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\bin\Debug\WindowsApplication.pdb
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\bin\Debug\africastalking-API-wrapper.dll
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\bin\Debug\MySql.Data.dll
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\bin\Debug\RestSharp.dll
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\bin\Debug\Twilio.Api.dll
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\bin\Debug\RestSharp.xml
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\bin\Debug\Twilio.Api.pdb
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\bin\Debug\Twilio.Api.xml
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.admin.settings.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.campaign.addcampaign.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.campaign.campaigns.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.customers.addcustomer.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.customers.customerdetails.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.customers.editcustomer.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.dashboard.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.draw.draws.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.draw.run.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\Drawgift_Client.DrawGift.Properties.Resources.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.raffle.addentry.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.raffle.drawentries.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.raffle.entry.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.shop.addshop.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.shop.editshop.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.shop.shops.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\DrawGift.signin.resources
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\Drawgift Client.csproj.GenerateResource.Cache
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\WindowsApplication.TrustInfo.xml
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\WindowsApplication.exe.manifest
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\WindowsApplication.application
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\WindowsApplication.exe
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\WindowsApplication.pdb
+C:\Users\Mbugua\Documents\Visual Studio 2012\Projects\DrawGift - Copy\obj\x86\Debug\Drawgift Client.csprojResolveAssemblyReference.cache
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.admin.settings.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.campaign.addcampaign.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.campaign.campaigns.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.customers.addcustomer.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.customers.customerdetails.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.customers.editcustomer.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.dashboard.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.draw.draws.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.draw.run.resources
+E:\code\DrawGift-client\obj\x86\Debug\Drawgift_Client.DrawGift.Properties.Resources.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.raffle.addentry.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.raffle.drawentries.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.raffle.entry.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.shop.addshop.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.shop.editshop.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.shop.shops.resources
+E:\code\DrawGift-client\obj\x86\Debug\DrawGift.signin.resources
+E:\code\DrawGift-client\obj\x86\Debug\Drawgift Client.csproj.GenerateResource.Cache
+E:\code\DrawGift-client\obj\x86\Debug\Drawgift Client.csproj.CoreCompileInputs.cache

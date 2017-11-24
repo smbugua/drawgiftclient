@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WindowsApplication.exe" version="1.0.0.17" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WindowsApplication" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="WindowsApplication.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="africastalking-API-wrapper.dll" size="16384">
+      <assemblyIdentity name="africastalking-API-wrapper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bBk5pPCZO99O9Dnr4U2lAZJ6mi9ofjHtRuOwsBGWXLk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="455168">
+      <assemblyIdentity name="MySql.Data" version="6.8.3.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XVWVKKNSf7V1KLrm8cxaqLQF1aQOLK6JOkT6jR+Z9po=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RestSharp.dll" size="167936">
+      <assemblyIdentity name="RestSharp" version="105.2.3.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Tr4KEZ+wIRcFc8Qbmxw1YFBvWmutsWfWH5pfsh+GksY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Twilio.Api.dll" size="175104">
+      <assemblyIdentity name="Twilio.Api" version="3.4.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iHHne1VPoafiTQLSVUpvjx1MmHJZjxKv+nVn/aQEFc4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsApplication.exe" size="819712">
+      <assemblyIdentity name="WindowsApplication" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UrkPBdoAhdc4RxlLGBnuzkWPGV3SioB3noPLiBzMM9k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DrawGift\DrawGift.csproj" size="13303">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ss288mfeWEqJJLC7RK42ChouV4cBKUc+Z5QhIilKadI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DrawGift\DrawGift.csproj.user" size="637">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LQNViyFmUHXxNwe8LjZMFin8lpG9gR5ieM5vRRrlBck=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="favicon.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>S9GrPXRMGShuBnamft231KZJ1pBYm356yTybWkGduLA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\AfricasTalkingGateway.1.0.0\lib\net40\africastalking-API-wrapper.dll" size="16384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bBk5pPCZO99O9Dnr4U2lAZJ6mi9ofjHtRuOwsBGWXLk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\MonoAndroid10\RestSharp.dll" size="167936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Tr4KEZ+wIRcFc8Qbmxw1YFBvWmutsWfWH5pfsh+GksY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\MonoAndroid10\RestSharp.xml" size="143748" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IyryP+gnGkaqJ7WAVCOoHee1POD+mie3gDHzaN5mfoM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\MonoTouch10\RestSharp.dll" size="186880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2+iG1ibpuWIaZOz6Nqsv44jnWFpDrx6UgqC9UjWGV54=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\MonoTouch10\RestSharp.xml" size="143748" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IyryP+gnGkaqJ7WAVCOoHee1POD+mie3gDHzaN5mfoM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net35\RestSharp.dll" size="161792">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wp5UK4nnK4J4nZU0zeHqOsIQTOGJoDF3aoreZRfq7Jg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net35\RestSharp.xml" size="134661" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ktipccrvam1e2Lk7cguDmWbM0mLhmhMx3ZP+nD92H70=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net4\RestSharp.dll" size="168960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jLgbxcP3H+8VtFbIyxta5EKR6UbZa2J76aHwH42IfZg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net4\RestSharp.xml" size="151199" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1uM5VsmM//aUJ/JSkHp9WYq6OXg9wcyA0cLd3Gxd0hM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net45\RestSharp.dll" size="168960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CnTXXfvyGTOQlpAI7A9uzrKciyA2PgUZLJWbD6wS8jE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net45\RestSharp.xml" size="151199" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1uM5VsmM//aUJ/JSkHp9WYq6OXg9wcyA0cLd3Gxd0hM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net451\RestSharp.dll" size="168960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NGImQbw+iVVIzT21qx3Ls6DIKg6/Dylu3tV+N2BYwq4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net451\RestSharp.xml" size="151199" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1uM5VsmM//aUJ/JSkHp9WYq6OXg9wcyA0cLd3Gxd0hM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net452\RestSharp.dll" size="168960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8kwZBHeWCymvIJJrTZ+Nd5HBSE8+fMJaOKOSjPNTwFw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net452\RestSharp.xml" size="151199" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1uM5VsmM//aUJ/JSkHp9WYq6OXg9wcyA0cLd3Gxd0hM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net46\RestSharp.dll" size="168960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4PAhWDt18eiv41RPSCrLi2dhlM87mzHgkNb2dsKfsCY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net46\RestSharp.xml" size="151199" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1uM5VsmM//aUJ/JSkHp9WYq6OXg9wcyA0cLd3Gxd0hM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net4-client\RestSharp.dll" size="168960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jLgbxcP3H+8VtFbIyxta5EKR6UbZa2J76aHwH42IfZg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\net4-client\RestSharp.xml" size="151199" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1uM5VsmM//aUJ/JSkHp9WYq6OXg9wcyA0cLd3Gxd0hM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\sl5\RestSharp.dll" size="138752">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vi0pP5cQznVjpY4jlBy/ON3L8ENb+ke3UHnZEfPOC4g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\sl5\RestSharp.xml" size="124893" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SBOIpUcPSrOx/4Avp5saST8sBxfami96jt4gwx9O/mg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\windowsphone8\RestSharp.dll" size="181248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ayp01sFPJDoC2EyV+LJrGaAN4dhCAPzjWhwhktmyUuo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\windowsphone8\RestSharp.xml" size="187167" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vXUY3sexPOVdMhIsMjINGZDRGLOUTPs6VRqtes4AkJQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\windowsphone81\RestSharp.dll" size="181248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KADw/7H9ErMjDD7hWffFX5OrCkGyKpLLW7BJVvEX47k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\windowsphone81\RestSharp.xml" size="187167" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vXUY3sexPOVdMhIsMjINGZDRGLOUTPs6VRqtes4AkJQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\Xamarin.iOS10\RestSharp.dll" size="166912">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MMEXlpqnIXfgEUhcCOolXvUHhEhn0rIZ6/5I7Nsr784=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\lib\Xamarin.iOS10\RestSharp.xml" size="143748" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IyryP+gnGkaqJ7WAVCOoHee1POD+mie3gDHzaN5mfoM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\RestSharp.105.2.3\readme.txt" size="964">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DI18v+ZTBr5UVwzGPY8GBukGBJZfN8S/vbbGfcFRJt8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\Twilio.4.7.2\lib\3.5\Twilio.Api.dll" size="175104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iHHne1VPoafiTQLSVUpvjx1MmHJZjxKv+nVn/aQEFc4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\Twilio.4.7.2\lib\3.5\Twilio.Api.pdb" size="693760">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Kxuy3NKseVaPwChKCrxyGhs22R10I8dhz09n8Kt66A4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\Twilio.4.7.2\lib\3.5\Twilio.Api.xml" size="337357" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dEQCyCNvm9OtT23rk86A5j7bmsTcb0bndhWrdVsy72g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\Twilio.4.7.2\lib\SL5\Twilio.Api.Silverlight.dll" size="133632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/iUFodJBSwmy6vtfqhx88aRzrKSFxut38Gz3DnSaExY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\Twilio.4.7.2\lib\SL5\Twilio.Api.Silverlight.pdb" size="517632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+R+BlfYKaYgYVlr0EVg80q2dPed7bRqY4TD1y8swbY4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\Twilio.4.7.2\lib\SL5\Twilio.Api.Silverlight.xml" size="210441" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>45ViF4aLM1gj3bH0mdDgdus6NTIV2Drs4LvFbodazH0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\Twilio.4.7.2\lib\WINDOWSPHONE8\Twilio.Api.WindowsPhone.dll" size="133120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JQ6jqYJSw88I5QsFuLq5D8CTsOFm561QT4xY1zGEZE0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\Twilio.4.7.2\lib\WINDOWSPHONE8\Twilio.Api.WindowsPhone.pdb" size="517632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Sy3FSunvKBPVqm6xEnt3qOdac/1W7JXrrRLpj5uKqF4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\Twilio.4.7.2\lib\WINDOWSPHONE8\Twilio.Api.WindowsPhone.xml" size="210442" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GfOJtedvWVtEEKCzlABjRmWO+l+9qIROEaS3BIfb06s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WindowsApplication.exe.config" size="475">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nPorh6BXQtTndP4jbR4IfzihVYvzG81AMga6vM1NSKI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+</asmv1:assembly>
